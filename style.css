@@ -45,8 +45,7 @@ nav ul li a:hover {
 #hero {
     text-align: center;
     padding: 50px 20px;
-    color: white; /* Adjust text color for better readability */
-}
+ }
 
 #hero img {
     width: 100%;
