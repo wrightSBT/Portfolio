@@ -2,12 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-image: url('background1.jpg'); /* Setting the background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
     padding: 15px 20px;
     border-radius: 0 0 15px 15px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -36,26 +42,10 @@ nav ul li a:hover {
     color: #007BFF;
 }
 
-backgrounf {
-    background-image: url('background1.jpg'); /* Setting the background image */
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    color: white; /* Adjust text color for better readability */
-    padding: 20px; /* Adds spacing inside the section */
-}
-
 #hero {
     text-align: center;
     padding: 50px 20px;
-}
-#hero {
-    background-image: url('background1.jpg'); /* Setting the background image */
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
     color: white; /* Adjust text color for better readability */
-    padding: 20px; /* Adds spacing inside the section */
 }
 
 #hero img {
@@ -65,20 +55,10 @@ backgrounf {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.hero .image-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
-}
-
 section {
     max-width: 800px;
     margin: 40px auto;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -101,7 +81,7 @@ section {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
     border-radius: 15px 15px 0 0;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -110,12 +90,6 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 main {
