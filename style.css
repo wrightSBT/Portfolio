@@ -36,6 +36,15 @@ nav ul li a:hover {
     color: #007BFF;
 }
 
+backgrounf {
+    background-image: url('background1.jpg'); /* Setting the background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Adjust text color for better readability */
+    padding: 20px; /* Adds spacing inside the section */
+}
+
 #hero {
     text-align: center;
     padding: 50px 20px;
