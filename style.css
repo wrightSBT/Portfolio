@@ -64,6 +64,7 @@ nav ul li a:hover {
     height: 100%;
     overflow: hidden;
     z-index: -1;
+}
 
 section {
     max-width: 800px;
