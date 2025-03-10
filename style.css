@@ -41,7 +41,7 @@ nav ul li a:hover {
     padding: 50px 20px;
 }
 #hero {
-    background-image: url('background.jpg'); /* Setting the background image */
+    background-image: url('background1.jpg'); /* Setting the background image */
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
